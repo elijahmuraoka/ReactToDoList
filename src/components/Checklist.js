@@ -1,15 +1,17 @@
+import '../styles/global.css'
 
 function Checklist() {
     // TODO: use the useState hook to replace the checklist array
     const checkList = ["hat", "sunglasses", "water"];
     return (
-        <div>
-            <h1>What to Pack</h1>
+        <div className="checklist-card">
+            <h1 className="list-header">What to Pack</h1>
             <ul >
                 {checkList.map((item, index) => (
-                    <li key={index}>
-                        <span>{item}</span>
-                    </li>
+                    <div key={index}>
+                        <input value={item} type="checkbox" />
+                        <span className="list-item">{item}</span>
+                    </div>
                 ))}
             </ul>
         </div>

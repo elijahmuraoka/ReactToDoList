@@ -1,8 +1,7 @@
-import Checklist from './components/Checklist.solution'
+import Checklist from './components/Checklist'
 function App() {
   return (
     <div>
-      Hi
       <Checklist />
     </div>
   );

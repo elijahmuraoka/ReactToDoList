@@ -1,3 +1,4 @@
+import '../styles/global.css'
 import { useState } from "react";
 
 function Checklist() {
@@ -9,9 +10,10 @@ function Checklist() {
     ]);
     const convertItemIntoList = (item) => {
         return (
-            <li>
+            <div>
+                <input value={item} type="checkbox" />
                 {item.item}
-            </li>
+            </div>
         );
     };
     return (

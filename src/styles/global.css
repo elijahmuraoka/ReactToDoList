@@ -1,0 +1,25 @@
+
+.checklist-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #DE8563;
+    width: 300px;  
+    left: 25vw;
+    top: 18vh;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+
+.list-header {
+    margin-bottom: 0; 
+    margin-left: 10px;
+}
+
+.list-item {
+    margin-left: 10px;
+}
+
+.test {
+    background-color: orange;
+}
