@@ -8,7 +8,7 @@ function ExplorerCardSolution() {
         <div className="explorer-card">
             <div className='heading'>
                 <div>NAME</div>
-                <div style={{ display: "flex", fontSize: "xx-large", background: '#C1623C', borderRadius: '25px', alignItems: 'center', padding: '10px'}}>
+                <div className='excitement'>
                     <div style={{ marginRight: "15px" }}>Excitement</div>
                         <div style={{ marginRight: "15px" }}>{excitement}</div>
                         <img style={{ width: '20px' }} src={picture} alt="cactus" onClick={(e) => setExcitement(prev => prev + 1)}/>
