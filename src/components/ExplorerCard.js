@@ -11,14 +11,14 @@ function ExplorerCard() {
                     Exercise 1:
                     Add a Div with your name here
                 */}
-                <div style={{ display: "flex", fontSize: "xx-large", background: '#C1623C', borderRadius: '25px', alignItems: 'center', padding: '10px'}}>
+                <div className='excitement'>
                     <div style={{ marginRight: "15px" }}>Excitement</div>
                     <div style={{ marginRight: "15px" }}>{excitement}</div>
                     {/* 
                     Exercise 2:
                     Add an onclick to this image of a cactus. Have it increment the excitement level.
                     */}
-                    <img style={{ width: '20px' }} src={picture} alt="cactus"/>
+                    <img style={{ width: "20px" }} src={picture} alt="cactus"/>
                 </div>
             </div>
             <div className="prompt-and-answer">
@@ -30,7 +30,7 @@ function ExplorerCard() {
                 <div>Jess, Karyna</div>
             </div>
             <div className="prompt-and-answer">
-                <div className='explorer-card-prompt'>If u found a genie what would ur 3 wishes be</div>
+                <div className='explorer-card-prompt'>If you found a genie what would your 3 wishes be</div>
                 <div>Wishes Here</div>
             </div>
         </div>
