@@ -8,6 +8,16 @@ function Checklist() {
         { id: "1", item: "sunglasses" },
         { id: "2", item: "water" }
     ]);
+    // const handleCheck = (event) => {
+    //     var updatedList = [...checked];
+    //     if (event.target.checked) {
+    //       updatedList = [...checked, event.target.value];
+    //     } else {
+    //       updatedList.splice(checkList.indexOf(event.target.value), 1);
+    //     }
+    //     setCheckList(updatedList);
+    //   };
+
     return (
         <div className="checklist-card">
             <h1 className="list-header">What to Pack</h1>
@@ -19,6 +29,10 @@ function Checklist() {
                     </div>
                 ))}
             </ul>
+            <div>
+                <button onClick={() => setCheckList([])}>Clear All</button>
+                <button>Clear All Selected</button>
+            </div>
         </div>
     );
 }

@@ -1,7 +1,14 @@
 import '../styles/global.css'
 
 function Checklist() {
-    // TODO: use the useState hook to replace the checklist array
+    // Exercise 4: 
+    // use the useState hook to replace the checklist array
+    // Exercise 5: 
+    // enable button to clear all elements
+    // Exercise 6: 
+    // add items to the checklist
+    // Exercise 7: 
+    // enable button to clear selected elements
     const checkList = ["hat", "sunglasses", "water"];
     return (
         <div className="checklist-card">
