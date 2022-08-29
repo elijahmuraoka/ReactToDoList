@@ -10,8 +10,10 @@ function App() {
     <div className='parent'>
       <div className="row-one">
         <ExplorerCard />
-        <ExplorerPicture />
-        <Checklist />
+        <div>
+          <Checklist />
+          <ExplorerPicture />
+        </div>
       </div>
     </div>
   );
