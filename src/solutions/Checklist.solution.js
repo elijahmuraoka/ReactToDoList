@@ -1,25 +1,18 @@
 import '../styles/global.css'
 import { useState } from "react";
-import { nanoid } from "nanoid";
 
 function Checklist() {
-    // note a unique id would be better
-    const [checkList, setCheckList] = useState([
-        { id: "0", item: "hat" },
-        { id: "1", item: "sunglasses" },
-        { id: "2", item: "water" }
-    ]);
+    // NOTE: ideally each element in the checklist would require a key
+    const [checkList, setCheckList] = useState([ "hat", "sunglasses", "water" ]);
     const [inputVal, setInputVal] = useState("");
-
-
     return (
         <div className="checklist-card">
             <h1 className="list-header">What to Pack</h1>
             <ul >
-                {checkList.map((item, index) => (
-                    <div key={item.id}>
-                        <input value={item.id} type="checkbox" />
-                        <span className="list-item">{item.item}</span>
+                {checkList.map((item) => (
+                    <div>
+                        <input value={item} type="checkbox" />
+                        <span className="list-item">{item}</span>
                     </div>
                 ))}
             </ul>
@@ -30,7 +23,7 @@ function Checklist() {
                     className="inputs"
                     onClick={() => {
                         setCheckList((prevCheckList) => {
-                            return prevCheckList.concat([{ id: nanoid(), item: inputVal }]);
+                            return prevCheckList.concat([inputVal]);
                         });
                         setInputVal("");
                     }}

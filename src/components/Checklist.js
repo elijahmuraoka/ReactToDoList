@@ -15,8 +15,8 @@ function Checklist() {
         <div className="checklist-card">
             <h1 className="list-header">What to Pack</h1>
             <ul >
-                {checkList.map((item, index) => (
-                    <div key={index}>
+                {checkList.map((item) => (
+                    <div>
                         <input value={item} type="checkbox" />
                         <span className="list-item">{item}</span>
                     </div>
