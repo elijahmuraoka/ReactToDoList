@@ -23,6 +23,8 @@ You may also see any lint errors in the console.
 
 ## It is helpful to "fuzzy file search" (command shift F in VSCode) for "exercise __" in your repository
 
+fuzzy file search = find a word in all of the files in your repository
+
 ### Exercise 1: 
 In the ExplorerCard.js file:
 
