@@ -54,3 +54,7 @@ Enable the Clear All button to clear all items from the list
 In the Checklist.js file:
 
 Enable the Add Item button to add items to the checkList
+
+## Note:
+
+Answers are included in the src/solutions folder but please try out the exercises first! :)
