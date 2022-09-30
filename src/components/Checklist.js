@@ -3,11 +3,13 @@ import { useState } from "react";
 
 function Checklist() {
     // Exercise 4: 
-    // use the useState hook to replace the checklist array, hint, each item will require key
-    // Exercise 5: 
-    // enable button to clear all elements
+    // Make sure the checkList is apart of the state. Hint: use the useState hook
+    
+    // Exercise 5:
+    // Enable the Clear All button to clear all items from the list
+
     // Exercise 6: 
-    // add items to the checklist
+    // Enable the Add Item button to add items to the checkList
     const checkList = ["hat", "sunglasses", "water"];
 
     const [inputVal, setInputVal] = useState("");
