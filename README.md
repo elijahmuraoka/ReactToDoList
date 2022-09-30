@@ -37,3 +37,20 @@ Add an onclick to this image of a cactus. Have it increment the excitement level
 
 ### Exercise 3:
 In ExplorerPicture.js file:
+
+Add your picture to the Img tag by changing the src property
+
+### Exercise 4:
+In the Checklist.js file:
+
+Make sure the checkList is apart of the state. Hint: use the useState hook
+
+### Exercise 5:
+In the Checklist.js file:
+
+Enable the Clear All button to clear all items from the list
+
+### Exercise 6:
+In the Checklist.js file:
+
+Enable the Add Item button to add items to the checkList
