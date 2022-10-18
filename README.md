@@ -4,14 +4,14 @@
 3. Create a Github Account
 4. Download git: 
 
-For Windows:
-git-scm.com/downloads
+* For Windows:
+ git-scm.com/downloads
 
 
-For Mac: 
+* For Mac: 
 * In your terminal: git --version or git (you’ll be prompted to install git)
 
-Else try
+* Else try
 * https://git-scm.com/download/mac(you may have to download Homebrew if trying the first option)
 
 5. In your terminal configure your github name and password: 
