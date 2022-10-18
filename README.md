@@ -2,6 +2,27 @@
 1. Install node: https://nodejs.org/en/download/
 2. Download a text editor (such as VsCode)
 3. Create a Github Account
+4. Download git: 
+
+For Windows:
+git-scm.com/downloads
+
+
+For Mac: 
+git --version or git 
+you’ll be prompted to install git
+
+Else try
+https://git-scm.com/download/mac
+(you may have to download Homebrew if trying the first option)
+
+5. In your terminal configure your github name and password: 
+git config --global user.name "your_username"
+
+git config --global user.email "your_email_address@example.com"
+
+(verify this works with) git config --global --list
+
 
 
 # Set Up 
@@ -20,11 +41,6 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 # Exercises
-
-## It is helpful to "fuzzy file search" (command shift F in VSCode) for "exercise __" in your repository
-
-fuzzy file search = find a word in all of the files in your repository
-
 ### Exercise 1: 
 In the ExplorerCard.js file:
 
