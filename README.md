@@ -15,11 +15,11 @@
     * https://git-scm.com/download/mac(you may have to download Homebrew if trying the first option)
 
 5. In your terminal configure your github name and password: 
-  1. git config --global user.name "your_username"
+    1. git config --global user.name "your_username"
 
-  2. git config --global user.email "your_email_address@example.com"
+    2. git config --global user.email "your_email_address@example.com"
 
-  * (verify this works with) git config --global --list
+    * (verify this works with) git config --global --list
 
 
 
