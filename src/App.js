@@ -1,21 +1,16 @@
-
-import './styles/global.css'
-import ExplorerCard from './components/ExplorerCard';
-import ExplorerPicture from './components/ExplorerPicture';
+import "./styles/global.css";
+import ExplorerCard from "./components/ExplorerCard";
+import Checklist from "./components/Checklist";
 import "@fontsource/nunito-sans";
-import Checklist from './components/Checklist'
 
 function App() {
   return (
-    <div className='parent'>
-      <div className="row-one">
+    <main>
+      <div className="split">
         <ExplorerCard />
-        <div>
-          <Checklist />
-          <ExplorerPicture />
-        </div>
+        <Checklist />
       </div>
-    </div>
+    </main>
   );
 }
 
